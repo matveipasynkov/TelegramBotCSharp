@@ -1,0 +1,12 @@
+/Users/macos/Projects/Solution/Library/bin/Debug/net6.0/Library.deps.json
+/Users/macos/Projects/Solution/Library/bin/Debug/net6.0/Library.dll
+/Users/macos/Projects/Solution/Library/bin/Debug/net6.0/Library.pdb
+/Users/macos/Projects/Solution/Library/obj/Debug/net6.0/Library.csproj.AssemblyReference.cache
+/Users/macos/Projects/Solution/Library/obj/Debug/net6.0/Library.GeneratedMSBuildEditorConfig.editorconfig
+/Users/macos/Projects/Solution/Library/obj/Debug/net6.0/Library.AssemblyInfoInputs.cache
+/Users/macos/Projects/Solution/Library/obj/Debug/net6.0/Library.AssemblyInfo.cs
+/Users/macos/Projects/Solution/Library/obj/Debug/net6.0/Library.csproj.CoreCompileInputs.cache
+/Users/macos/Projects/Solution/Library/obj/Debug/net6.0/Library.dll
+/Users/macos/Projects/Solution/Library/obj/Debug/net6.0/refint/Library.dll
+/Users/macos/Projects/Solution/Library/obj/Debug/net6.0/Library.pdb
+/Users/macos/Projects/Solution/Library/obj/Debug/net6.0/ref/Library.dll
