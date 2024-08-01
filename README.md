@@ -2,7 +2,7 @@
 This is my seventh project, which was assigned as homework in university. The console application is stored in ConsoleApp, the class library in Library, and the logs are stored in var.
 ### Main Assignment
 ### Requirements for the class library
-#### 1) The MyType1 class represents the objects described in the CSV file of an individual variant. Fields must be named according to Microsoft naming conventions. Classes must contain constructor(s) to initialize their fields.
+#### 1) The Station class represents the objects described in the CSV file of an individual variant. Fields must be named according to Microsoft naming conventions. Classes must contain constructor(s) to initialize their fields.
 #### 2) Non-static CSVProcessing class. Contains methods for reading a csv file and writing to it.
 a. Write method: takes as input a collection of objects of type MyType and returns an object of type Stream, which will be used to send the csv document to the
 Telegram bot.
@@ -29,6 +29,6 @@ further commands.
 2. Make a selection by one of the fields of the file. Fields, by which you can make a selection, are specified in the table of the individual variant. To implement this item
 it is necessary to use MyType objects and LINQ queries.
 3. sort by one of the fields. The fields by which the selection can be sorted are specified in the table of the individual variant. To implement this item it is necessary to
-use MyType objects and LINQ queries.
+use Station objects and LINQ queries.
 4. Download the processed file in CSV or JSON format.
 5. Upload the JSON file for processing (your program should be able to accept back the JSON files it created, CSV uploads also apply).
