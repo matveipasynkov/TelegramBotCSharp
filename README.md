@@ -2,7 +2,7 @@
 This is my seventh project, which was assigned as homework in university. The console application is stored in ConsoleApp, the class library in Library, and the logs are stored in var.
 ### Main Assignment
 ### Requirements for the class library
-#### 1) The Station class represents the objects described in the CSV file of an individual variant. Fields must be named according to Microsoft naming conventions. Classes must contain constructor(s) to initialize their fields.
+#### 1) The Station class represents the objects described in the CSV file. Fields must be named according to Microsoft naming conventions. Classes must contain constructor(s) to initialize their fields.
 #### 2) Non-static CSVProcessing class. Contains methods for reading a csv file and writing to it.
 a. Write method: takes as input a collection of objects of type MyType and returns an object of type Stream, which will be used to send the csv document to the
 Telegram bot.
