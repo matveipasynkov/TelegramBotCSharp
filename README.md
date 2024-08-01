@@ -4,16 +4,16 @@ This is my seventh project, which was assigned as homework in university. The co
 ### Requirements for the class library
 #### 1) The Station class represents the objects described in the CSV file. Fields must be named according to Microsoft naming conventions. Classes must contain constructor(s) to initialize their fields.
 #### 2) Non-static CSVProcessing class. Contains methods for reading a csv file and writing to it.
-a. Write method: takes as input a collection of objects of type MyType and returns an object of type Stream, which will be used to send the csv document to the
+a. Write method: takes as input a collection of objects of type Station and returns an object of type Stream, which will be used to send the csv document to the
 Telegram bot.
 
-b. Read method: takes as input a Stream with a csv file from Telegram-bot and returns a collection of objects of type MyType.
+b. Read method: takes as input a Stream with a csv file from Telegram-bot and returns a collection of objects of type Station.
 #### 3) Non-static JSONProcessing class. Contains methods for reading a json file and writing to it.
-a. Write method: takes as input a collection of objects of type MyType and returns a
+a. Write method: takes as input a collection of objects of type Station and returns a
 an object of type Stream, which will be used to send the json file by Telegram bot.
 
 b. Read method: takes as input a Stream with a json file from Telegram-bot and
-returns a collection of objects of type MyType.
+returns a collection of objects of type Station.
 #### 4) Class implementations must not violate the Open Close Principle and the Single Responsibility Principle.
 #### 5) Type hierarchies shall not violate the Liskov Substitution Principle and shall be designed based on the Dependency Inversion Principle.
 #### 6) Class implementations must not violate encapsulation and relationships defined between types, such as providing external references to fields or changing the state of an object without checks.
@@ -27,7 +27,7 @@ returns a collection of objects of type MyType.
 1. Upload a CSV file for processing, the bot receives the file to be processed by further commands.
 further commands.
 2. Make a selection by one of the fields of the file. Fields, by which you can make a selection, are specified in the table of the individual variant. To implement this item
-it is necessary to use MyType objects and LINQ queries.
+it is necessary to use Station objects and LINQ queries.
 3. sort by one of the fields. The fields by which the selection can be sorted are specified in the table of the individual variant. To implement this item it is necessary to
 use Station objects and LINQ queries.
 4. Download the processed file in CSV or JSON format.
